@@ -23,7 +23,7 @@ Check out the live version: https://todo-list.vercel.app
 ## 📸 Screenshots
 
 Example:
-![alt text](image.png)
+![App Preview](./public/preview.png)
 
 ## 🛠️ Built With
 
