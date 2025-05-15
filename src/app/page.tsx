@@ -11,7 +11,7 @@ import { useContext } from 'react'
 import { TaskContext } from '@/context/TaskContext'
 
 const TaskSchema = z.object({
-  description: z.string().min(1, 'Campo obrigatório'),
+  description: z.string().min(1, 'Required field'),
 })
 
 type TaskSchemaInputs = z.infer<typeof TaskSchema>
@@ -51,7 +51,7 @@ export default function Home() {
             <input
               className="placeholder-text-gray-300 flex-1 border-0 bg-transparent p-0 text-gray-100 transition-colors duration-300 outline-none"
               type="text"
-              placeholder="Adicione uma nova tarefa"
+              placeholder="Add a new task"
               required
               {...register('description')}
             />
@@ -61,7 +61,7 @@ export default function Home() {
             type="submit"
             className="bg-bluedark hover:bg-blue flex items-center gap-2 rounded p-4 font-bold text-gray-100 transition-colors duration-300"
           >
-            Criar
+            Add
             <PlusCircle className="h-4 w-4 text-gray-100" />
           </button>
         </form>
@@ -69,16 +69,16 @@ export default function Home() {
         <div className="mt-16">
           <div className="mb-6 flex items-center justify-between text-sm font-bold">
             <div className="text-blue flex gap-2">
-              Tarefas criadas{' '}
+              Tasks created{' '}
               <span className="rounded-full bg-gray-400 px-2 text-gray-200">
                 {tasks.length}
               </span>
             </div>
 
             <div className="text-purple flex gap-2">
-              Concluídas{' '}
+              Completed{' '}
               <span className="rounded-full bg-gray-400 px-2 text-gray-200">
-                {tasksDone} de {tasks.length}
+                {tasksDone} of {tasks.length}
               </span>
             </div>
           </div>

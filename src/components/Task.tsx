@@ -85,11 +85,11 @@ export function Task() {
           <ClipboardList className="h-14 w-14 text-gray-400" />
           <div className="flex flex-col items-center leading-snug">
             <p className="text-base font-bold text-gray-300">
-              Você ainda não tem tarefas cadastradas
+              You do not have any registered tasks yet.
             </p>
 
             <span className="font-normal text-gray-300">
-              Crie tarefas e organize seus itens a fazer
+              Create tasks and organize your to-do items
             </span>
           </div>
         </motion.div>

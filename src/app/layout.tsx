@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Todo List',
-  description: 'Lista de Tarefas',
+  description: 'A to-do list app',
   icons: {
     icon: '/favicon.png',
   },
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className={`antialiased ${inter.variable}`}>
+    <html lang="en" className={`antialiased ${inter.variable}`}>
       <body className="font-sans">
         <TaskProvider>
           <div className="min-h-screen">{children}</div>

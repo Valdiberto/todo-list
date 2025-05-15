@@ -1,23 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Todo List
 
-## Getting Started
+A clean and functional Todo List app built with React, TypeScript, Tailwind CSS, and Framer Motion. Add, complete, and delete tasks with smooth animations and a modern UI. Your tasks are saved in the browser using localStorage.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the live version: https://todo-list.vercel.app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-## Deploy on Vercel
+✅ Add new tasks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Mark tasks as completed
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✅ Delete tasks individually
+
+✅ Data persistence with localStorage
+
+✅ Smooth animations with Framer Motion
+
+✅ Responsive and accessible UI
+
+## 📸 Screenshots
+
+Example:
+![alt text](image.png)
+
+## 🛠️ Built With
+
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
+
+## 📦 Getting Started
+
+Follow the steps below to run the project locally:
+
+1. Clone the repository
+   `git clone https://github.com/Valdiberto/todo-list.git`
+
+2. Navigate into the project folder
+   `cd todo-list`
+
+3. Install dependencies
+   `npm install`
+
+4. Start the development server
+   `npm run dev`
+   Open your browser and go to http://localhost:3000
+
+## 🧪 Tests
+
+This project does not currently include automated tests. Feel free to contribute with tests or improvements!
+
+## 📁 Deployment
+
+This project is ready for deployment with Vercel. Just connect your GitHub repo and deploy — no extra config needed.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🙋 Author
+
+Made with 💻 by Valdiberto
